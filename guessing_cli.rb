@@ -8,7 +8,7 @@ def run_guessing_game
     case user_guess.chomp 
     when computer_guess
       puts "You guessed the correct number!"
-    when 
+    when "exit"
   end
 end
 
