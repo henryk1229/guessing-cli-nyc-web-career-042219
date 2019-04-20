@@ -9,6 +9,8 @@ def run_guessing_game
     when computer_guess
       puts "You guessed the correct number!"
     when "exit"
+      puts "Goodbye!"
+      break
   end
 end
 
