@@ -4,8 +4,8 @@ def run_guessing_game
   while user_guess
     puts "Guess a number between 1 and 6."
     user_guess = gets.chomp 
-    computer_guess = rand(1..6)
-    case computer_guess.chomp 
+    computer_guess = rand(1..6).to_s
+    case user_guess.chomp 
     if computer_guess == user_guess
     puts "You guessed the correct number!"
   elsif computer_guess != user_guess
