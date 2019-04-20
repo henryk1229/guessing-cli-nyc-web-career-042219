@@ -7,6 +7,7 @@ def run_guessing_game
     computer_guess = rand(1..6).to_s
     case user_guess.chomp 
     when computer_guess
+      puts "You guessed the correct number!"
   end
 end
 
