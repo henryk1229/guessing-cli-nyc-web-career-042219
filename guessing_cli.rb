@@ -1,6 +1,8 @@
 # Code your solution here!
 def run_guessing_game
-  puts "Guess a number between 1 and 6."
+  input = ''
+  while input
+    puts "Guess a number between 1 and 6."
   user_guess = gets.chomp 
   computer_guess = rand(1..6)
   if computer_guess == user_guess
