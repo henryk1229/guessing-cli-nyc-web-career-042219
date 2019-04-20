@@ -4,7 +4,6 @@ def run_guessing_game
   user_guess = gets.chomp 
   if user_guess == "exit"
     puts "Goodbye!"
-    break
   end
 end
 
